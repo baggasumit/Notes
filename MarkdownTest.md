@@ -9,3 +9,15 @@ function b() {
 ```
 
 
+Strong emphasis, aka bold, with **asterisks** or _underscores_
+
+[I'm an inline-style link][1]
+
++ item 1
++ item 2
++ item 3
++ item 4
+
+
+
+[1]: http://www.google.com
