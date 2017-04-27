@@ -9,7 +9,7 @@ function b() {
 ```
 
 
-Strong emphasis, aka bold, with **asterisks** or _underscores_
+Strong emphasis, aka bold, with **asterisks** or italics with _underscores_
 
 [I'm an inline-style link][1]
 
