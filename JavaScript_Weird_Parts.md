@@ -33,7 +33,7 @@ var sayHi = greet('Hi');
 sayHi('Tony');
 ```
 
-------------
+
 
 ```js
 function buildFunctions() {
@@ -113,8 +113,6 @@ greetEnglish('John', 'Doe');
 greetSpanish('John', 'Doe');
 ```
 
------------------------------------------------------------
-
 ## Call, Apply, Bind 
 
 ```js
@@ -172,3 +170,25 @@ var john = new Person('John', 'Doe'); // ‘new’ creates a new empty object an
 // Why not just add getFullName to the constructor function? To save memory space because each new object will get it’s own copy of the function.
 console.log(john);
 ```
+
+## Object.create 
+
+```js
+var person = {
+    firstname: 'Default',
+    lastname: 'Default',
+    greet: function() {
+        return 'Hi' + this.firstname;
+    }
+}
+
+var john = Object.create(person);
+john.firstname = 'John';
+john.lastname = 'Doe';
+console.log(john);
+```
+
+
+## Greetr Library
+
+Refer to the code for best practices

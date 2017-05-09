@@ -17,6 +17,4 @@ Strong emphasis, aka bold, with **asterisks** or italics with _underscores_
 + item 2
 + item 3
 
-
-
 [1]: http://www.google.com
