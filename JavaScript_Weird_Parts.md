@@ -33,6 +33,7 @@ var sayHi = greet('Hi');
 sayHi('Tony');
 ```
 
+Normally JavaScript's garbage collector would clean up the scope object created for makeAdder() at this point, but the returned function maintains a reference back to that scope object. As a result, the scope object will not be garbage-collected until there are no more references to the function object that makeAdder() returned.
 
 
 ```js
